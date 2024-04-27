@@ -8,7 +8,7 @@ resource "aws_instance" "k8-M" {
   instance_type = "t2.medium"
   key_name = "Aksith-Don't delete"
   tags = {
-    Name = "KMASTER"
+    Name = "Kmaster"
   }
 }
 
@@ -17,6 +17,6 @@ resource "aws_instance" "k8-S1" {
   instance_type = "t2.medium"
   key_name = "Aksith-Don't delete"
   tags = {
-    Name = "KSlave"
+    Name = "Kslave"
   }
 }
